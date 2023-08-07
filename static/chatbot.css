@@ -32,14 +32,15 @@ body {
   flex-flow: column wrap;
   justify-content: space-between;
   width: 100%;
-  max-width: 867px;
-  margin: 25px 10px;
-  height: calc(100% - 50px);
+  max-width: 100%; /* Allow it to take the full width of the screen */
+  margin: 0; /* Remove margins to take up full space */
+  height: 100vh; /* Set height to 100% of the viewport height */
   border: var(--border);
   border-radius: 5px;
   background: var(--msger-bg);
   box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
 }
+
 
 .msger-header {
   /* display: flex; */
